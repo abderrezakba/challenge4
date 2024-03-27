@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(jGlzr.png);
+  background-size: cover;
+}
+.first{
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 490px;
+  background: rgba(0,0,0,.5);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin-top: 45px;
+
+}
+
+input[type="number"]{
+  outline:none;
+  border: none;
+  width: 250px;
+  height: 10px;
+  border-bottom: 2px solid #0094ff;
+  background: none;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 20px;  
+}
+.text-gray-700{
+  display: block;
+  margin-left: 25px;
+  color: rgba(245, 245, 220, 0.682);
+  
+}
+#income{
+  margin-left: 25px;
+}
+#expenseAmount{
+  margin-left: 25px;
+
+}
+#expenseCategory{
+  margin-left: 25px;
+  background: #7d7070;
+  border: none;
+  outline: none;
+  color: #342b2b;
+  font-size: 20px;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 30px;
+
+}
+.mb-4{
+  margin-left: 25px;
+}
+.cal{
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+button{
+  background: #0077ff;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
+}
+#ex{
+  margin-bottom: 10px;
+}
+#totalExpenses{
+  margin-bottom: 30px;
+}
+
+
+
