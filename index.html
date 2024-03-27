@@ -10,20 +10,20 @@
 
 <body>
 	<div class="first">
-		<div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-			<h2 class="text-2xl font-semibold text-gray-800 mb-4">Budget Management Tool</h2>
+		<div >
+			<h2 >Personal Finance Tracker</h2>
 			<form id="budgetForm">
 
                     <label for="income" class="text-gray-700">Income:</label> 
-                    <input type="number" id="income" name="income"class="w-full border border-green-500 rounded-lg p-2 mb-4">
+                    <input type="number" id="income" name="income">
 
 
                     <label for="expenseAmount" class="text-gray-700">Expense Amount:</label>
-                    <input type="number" id="expenseAmount" name="expenseAmount" class="w-full border border-green-500 rounded-lg p-2 mb-4">
+                    <input type="number" id="expenseAmount" name="expenseAmount">
 
 
                     <label id="ex" for="expenseCategory" class="text-gray-700">Expense Category:</label>
-                    <select id="expenseCategory" name="expenseCategory" class="w-full border border-green-500 rounded-lg p-2 mb-4">
+                    <select id="expenseCategory" name="expenseCategory">
                         <option value="Groceries">Groceries</option>
                         <option value="Utilities">Utilities</option>
                         <option value="Transportation">Transportation</option>
@@ -34,19 +34,21 @@
                         <option value="rent">rent</option>
                         <option value="internet">internet</option>
                         <option value="personal care">personal care</option>
+                        <option value="other">other</option>
+
 
                     </select>
 
 				
-				<button type="button" id="addExpense" class="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2 w-full mb-4">AdExpense</button>
+				<button type="button" id="addExpense" >AdExpense</button>
 				<div id="expenseList" class="mb-4"></div>
-				<div class="flex justify-between items-center mb-4">
-					<span class="text-gray-700">Total Expenses:</span>
-					<span id="totalExpenses" class="text-green-600 font-semibold"></span>
+				<div >
+					<span class="tot">Total Expenses:</span>
+					<span id="totalExpenses"></span>
 				</div>
-				<button type="submit" class="cal" class="bg-green-500 hover:bg-green-600 text-white rounded-lg px-4 py-2 w-full">Calculate</button>
+				<button type="submit" class="cal">Calculate</button>
 			</form>
-			<div id="savings" class="mt-4 text-gray-700"></div>
+			<div id="savings" class="sav"></div>
 		</div>
 	</div>
 	<script>

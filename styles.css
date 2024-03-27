@@ -85,5 +85,14 @@ button{
   margin-bottom: 30px;
 }
 
+.tot{
+  color: rgba(245, 245, 220, 0.682);
+  margin-left: 25px;
+}
+
+.sav{
+  margin-top: 20px;
+  margin-left: 25px;
+}
 
 
